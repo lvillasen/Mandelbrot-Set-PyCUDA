@@ -189,7 +189,6 @@ def zoom_on_point(event):
         myobj = plt.imshow(M,origin='lower',cmap=cmaps[i_cmap])
         ax.set_title('Side=%.2e, x=%.2e, y=%.2e, %s, L=%d'%(side,x0,y0,cmaps[i_cmap],L))
         plt.draw() 
-    fig.canvas.mpl_connect('key_press_event', key_selector) 
 fig.canvas.mpl_connect('button_press_event', zoom_on_point)
 fig.canvas.mpl_connect('key_press_event', key_selector)
 func(np.float64(x0),np.float64(y0),np.float64(side), np.int32(L),np.float64(power),drv.Out(M),block=(n_block,n_block,1),grid=(n_grid,n_grid,1))
