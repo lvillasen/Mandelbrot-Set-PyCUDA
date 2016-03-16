@@ -153,7 +153,7 @@ key_selector.RS = RectangleSelector(ax, zoom_on_square,
                                        drawtype='box', useblit=True,
                                        button=[1, 3],  # don't use middle button
                                        minspanx=5, minspany=5,
-                                       spancoords='pixels', interactive=False)
+                                       spancoords='pixels')
 def zoom_on_point(event):
     global N,side,x0,y0,myobj,L,M,i_cmap,power
     #print(" Button pressed: %d" % (event.button))
