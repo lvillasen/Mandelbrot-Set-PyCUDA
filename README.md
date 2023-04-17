@@ -5,7 +5,7 @@ Code to plot the Mandelbrot set interactively with the Classical Iteration Metho
 License: GPLv3
 Date: 2016-02-09
 
-#Usage
+# Usage
 
 python Mandelbrot_PyCUDA.py
 
