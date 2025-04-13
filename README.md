@@ -39,4 +39,6 @@ A headless mode can be tested with
 
 ``` python3 Mandelbrot_PyCUDA_headless.py ```
 
+to create an image called mandelbrot_cuda.png
+
 
