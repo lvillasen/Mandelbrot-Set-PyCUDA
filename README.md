@@ -7,7 +7,7 @@ Date: 2016-02-09
 
 # Usage
 
-python Mandelbrot_PyCUDA.py
+``` python3 Mandelbrot_PyCUDA.py ```
 
 # Instructions
 
@@ -37,6 +37,6 @@ PyCUDA see https://mathema.tician.de/software/pycuda/
 
 A headless mode can be tested with
 
-python Mandelbrot_PyCUDA_headless.py
+``` python3 Mandelbrot_PyCUDA_headless.py ```
 
 
