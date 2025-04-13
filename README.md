@@ -34,3 +34,9 @@ Type 's' to save the image
 Prerequisites
 
 PyCUDA see https://mathema.tician.de/software/pycuda/
+
+A headless mode can be tested with
+
+python Mandelbrot_PyCUDA_headless.py
+
+
